@@ -1,0 +1,33 @@
+.section-7__box {
+    display: flex;
+    width: 100%;
+    height: 481px;
+    background-color: #F4F0EC;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-7__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.section-7__item:not(:last-child) {
+    border-right: 1px solid #CDA274;
+}
+
+.section-7__title {
+    font-family: "DM Serif Display", serif;
+    width: 78px;
+    height: 128px;
+    font-size: 85px;
+    color: #CDA274;
+}
+
+.section-7__text {
+    width: 200px;
+    height: 33px;
+    font-size: 22px;
+}
